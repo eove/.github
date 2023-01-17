@@ -31,18 +31,21 @@ Tick the box(es) only if the answer is YES.
 
 ```mermaid
 graph TD
-    D{Is it dangerous for the patient? (On of the 4 questions is checked)}
-    D --> |NO| E[<b>LABEL BUG]
-    D --> |YES| G(Risk analysis)
-    G --> H{Is the remaining<br />risk acceptable?}
-    H --> |YES|I[<b>LABEL CRITICAL]
-    H --> |NO| J[<b>LABEL NC]
-style E fill:#FF0,stroke:#333,color:#000, stroke-width:4px
-style I fill:#FFC300,stroke:#333,color:#000, stroke-width:4px
-style J fill:#FF0000,stroke:#333,color:#000, stroke-width:4px
+    D{"Is it dangerous for the patient?<br/>(One of the 4 questions is checked)"}
+    D --NO--> E[LABEL BUG]
+    D --YES--> G(Risk analysis)
+    --> H{Is the remaining<br/>risk acceptable?}
+    H --YES--> I[LABEL CRITICAL]
+    H --NO--> J[LABEL NC]
+
+classDef Tag stroke:#333,color:#000, stroke-width:4px, font-weight: bold
+class E,I,J Tag;
+style E fill:#FF0
+style I fill:#FFC300
+style J fill:#FF0000
 ```
 
-_(Complete labelling regarding the workflow result and erase this chapter once labelling done)_
+_(Complete labelling regarding the workflow result (visualise it in preview) and erase this chapter once labelling done)_
 
 ## Description
 
