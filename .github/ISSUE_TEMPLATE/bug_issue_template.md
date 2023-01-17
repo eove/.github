@@ -1,8 +1,8 @@
 ---
 name: 🐛 Eove bug issue 🐛
 about: Report a reproducible bug or regression
-title: ""
-labels: "bug"
+title: "[Bug]: "
+labels: ""
 assignees: ""
 ---
 
@@ -29,7 +29,20 @@ Tick the box(es) only if the answer is YES.
 
 #### Labelling
 
-_(Complete labelling regarding the [workflow](https://github.com/eove/eo150-app/tree/add_ticket_infos_to_readme#how-to-create-a-new-ticket) result and erase this chapter once labelling done)_
+```mermaid
+graph TD
+    D{Is it dangerous for the patient? (On of the 4 questions is checked)}
+    D --> |NO| E[<b>LABEL BUG]
+    D --> |YES| G(Risk analysis)
+    G --> H{Is the remaining<br />risk acceptable?}
+    H --> |YES|I[<b>LABEL CRITICAL]
+    H --> |NO| J[<b>LABEL NC]
+style E fill:#FF0,stroke:#333,color:#000, stroke-width:4px
+style I fill:#FFC300,stroke:#333,color:#000, stroke-width:4px
+style J fill:#FF0000,stroke:#333,color:#000, stroke-width:4px
+```
+
+_(Complete labelling regarding the workflow result and erase this chapter once labelling done)_
 
 ## Description
 
