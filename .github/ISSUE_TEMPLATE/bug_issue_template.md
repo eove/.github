@@ -40,12 +40,12 @@ graph TD
 
 classDef Tag stroke:#333,color:#000, stroke-width:4px, font-weight: bold
 class E,I,J Tag;
-style E fill:#FF0
+style E fill:#FFFF00
 style I fill:#FFC300
 style J fill:#FF0000
 ```
 
-_(Complete labelling regarding the workflow result (visualise it in preview) and erase this chapter once labelling done)_
+_(Complete labelling regarding the [workflow result](https://github.com/eove/.github/) (visualise it in preview) and erase this chapter once labelling done)_
 
 ## Description
 
