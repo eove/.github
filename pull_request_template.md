@@ -14,15 +14,17 @@ _TODO_ Describe how you solved the issue
 
 # How to test
 
-_TODO_ Select one option
+_TODO_ Select one of the following option
 
 All the tests of the referring issue has been automated
 
-Some tests couldn't be automated :
+_or_
+
+A few tests couldn't be automated:
 - test1
 - test2
 
-# How was it test
+# How was it tested
 
 _TODO_ automated test only ? V&V ran some scenarios ? Any other meaning full detail
 
