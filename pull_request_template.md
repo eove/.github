@@ -5,8 +5,7 @@ _TODO_ Describe prerequisites needed to test / check this PR
 # Checklist
 
 - [ ] Changelog updated
-- [ ] Reference to automated issues tests
-- [ ] Tested by a V&V 
+- [ ] Traciblity to issue's tests
 
 # How was it done
 
