@@ -7,31 +7,29 @@ assignees: ""
 ---
 
 #### Origin
+  
+- Technician
+- Physician
+- Marketing
+- RD
+- After Sales Service
 
-- [ ] Technician
-- [ ] Physician
-- [ ] Marketing
-- [ ] RD
-- [ ] After Sales Service
-
-#### Context
-
-_[Indicate version(s) where the bug has been found]_
+_keep only the necessary lines_
 
 #### Criticality questions
 
-Tick the box(es) only if the answer is YES.
+~Strike~ the wrong answer
 
-- [ ] Can the patient suffer damage due to defective ventilation? **(ventilation)**
-- [ ] Does this cause misinterpretation of the ventilation data? **(settings/monitoring)**
-- [ ] Does this cause a lack of prevention to the patient's entourage? **(alarms)**
-- [ ] Does this cause a malfunction of the product or one of its assemblies? **(hardware)**
+- Can the patient suffer damage due to defective ventilation? **(ventilation)** YES/NO
+- Does this cause misinterpretation of the ventilation data? **(settings/monitoring)** YES/NO
+- Does this cause a lack of prevention to the patient's entourage? **(alarms)** YES/NO
+- Does this cause a malfunction of the product or one of its assemblies? **(hardware)** YES/NO
 
 #### Labelling
 
 ```mermaid
 graph TD
-    D{"Is it dangerous for the patient?<br/>(One of the 4 questions is checked)"}
+    D{"Is it dangerous for the patient?<br/>(the answer is YES to one of the 4 questions)"}
     D --NO--> E[LABEL BUG]
     D --YES--> G(Risk analysis)
     --> H{Is the remaining<br/>risk acceptable?}
@@ -45,18 +43,18 @@ style I fill:#FFC300
 style J fill:#FF0000
 ```
 
-_(Complete labelling regarding the [workflow result](https://github.com/eove/.github/) (visualise it in preview) and erase this chapter once labelling done)_
+_Complete labelling regarding the [workflow result](https://github.com/eove/.github/) (visualise it in preview) and erase this chapter once labelling done_
 
 ## Description
 
 #### What is the problem to solve?
 
-_(Describe as best as you can the bug or regression to be fixed)_
+```
+Given
+When
+Then
+```
 
-#### Proposal
+#### Proposal _optionnal_
 
-_(Complete with your idea, the feedback from the field, ask for help, etc...)_
-
-#### Test
-
-_(Complete with as much use cases as possible to describe exactly the expected behavior. Use 'Given When Then' format to allow the export of the test directly to the official documentation)_
+_Complete with your idea, the feedback from the field, ask for help, etc..._
