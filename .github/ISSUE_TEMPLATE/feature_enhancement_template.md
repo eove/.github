@@ -8,22 +8,30 @@ assignees: ""
 
 #### Origin
 
-- [ ] Technician
-- [ ] Physician
-- [ ] Marketing
-- [ ] RD
-- [ ] After Sales Service
+- Technician
+- Physician
+- Marketing
+- RD
+- After Sales Service
+
+_keep only the necessary lines_
 
 ## Description
 
 #### What could be even better in our product?
 
-_(Describe as best as you can the feature or enhancement)_
-
-#### Proposal
-
-_(Complete with your idea, the feedback from the field, ask for help, etc...)_
+_Describe as best as you can the feature or enhancement_
 
 #### Test
 
-_(Complete with as much use cases as possible to describe exactly the expected behavior. Use 'Given When Then' format to allow the export of the test directly to the official documentation)_
+_Can be filled when starting to work on the issue_
+
+```
+Given
+When
+Then
+```
+
+#### Proposal
+
+_Complete with your idea, the feedback from the field, ask for help, etc..._
