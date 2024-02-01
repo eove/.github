@@ -1,32 +1,14 @@
-# Prerequisites (optional)
+## ⚠️ Merge warnings ⚠️ (optional)
 
-_TODO_ Describe prerequisites needed to test / check this PR
+_TODO_ Describe prerequisites needed to merge this PR
 
-# Checklist
+## Checklist
 
 - [ ] Changelog updated
 - [ ] Traciblity to issue's tests
 
-# How was it done
+## How was it done
 
 _TODO_ Describe how you solved the issue
 
-# How to test
-
-_TODO_ Select one of the following option
-
-All the tests of the referring issue has been automated
-
-_or_
-
-A few tests couldn't be automated:
-- test1
-- test2
-
-# How was it tested
-
-_TODO_ automated test only ? V&V ran some scenarios ? Any other meaning full detail
-
-# See also (optional)
-
-_TODO_ reference here any document / Issue / PR worth mentioning
+## Advices for testing (optional)
