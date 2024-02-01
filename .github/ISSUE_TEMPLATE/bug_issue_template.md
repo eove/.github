@@ -6,7 +6,7 @@ labels: ""
 assignees: ""
 ---
 
-#### Origin
+## Origin
   
 - Technician
 - Physician
@@ -16,7 +16,7 @@ assignees: ""
 
 _keep only the necessary lines_
 
-#### Criticality questions
+## Criticality questions
 
 ~Strike~ the wrong answer
 
@@ -25,7 +25,7 @@ _keep only the necessary lines_
 - Does this cause a lack of prevention to the patient's entourage? **(alarms)** YES/NO
 - Does this cause a malfunction of the product or one of its assemblies? **(hardware)** YES/NO
 
-#### Labelling
+### Labelling
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ _Complete labelling regarding the [workflow result](https://github.com/eove/.git
 
 ## Description
 
-#### What is the problem to solve?
+### What is the problem to solve?
 
 ```
 Given
@@ -55,6 +55,6 @@ When
 Then
 ```
 
-#### Proposal _optionnal_
+## Proposal _optionnal_
 
 _Complete with your idea, the feedback from the field, ask for help, etc..._
