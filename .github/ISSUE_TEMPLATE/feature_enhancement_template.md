@@ -6,7 +6,7 @@ labels: "enhancement"
 assignees: ""
 ---
 
-#### Origin
+## Origin
 
 - Technician
 - Physician
@@ -18,11 +18,11 @@ _keep only the necessary lines_
 
 ## Description
 
-#### What could be even better in our product?
+### What could be even better in our product?
 
 _Describe as best as you can the feature or enhancement_
 
-#### Test
+### Test
 
 _Can be filled when starting to work on the issue_
 
@@ -32,6 +32,6 @@ When
 Then
 ```
 
-#### Proposal
+## Proposal
 
 _Complete with your idea, the feedback from the field, ask for help, etc..._
