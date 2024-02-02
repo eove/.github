@@ -5,7 +5,7 @@ _TODO_ Describe prerequisites needed to merge this PR
 ## Checklist
 
 - [ ] Changelog updated
-- [ ] Traciblity to issue's tests
+- [ ] Traceablity to issue's tests
 
 ## How was it done
 
