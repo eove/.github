@@ -13,6 +13,8 @@ assignees: ""
 - Marketing
 - RD
 - After Sales Service
+- Manufacturing
+- QA
 
 _keep only the necessary lines_
 
@@ -27,9 +29,11 @@ _Describe as best as you can the feature or enhancement_
 _Can be filled when starting to work on the issue_
 
 ```
-Given
-When
-Then
+  Feature: ...
+    Scenario: ...
+      Given ...
+      When ...
+      Then ... ....... PASS [ ] / FAIL [ ]
 ```
 
 ## Proposal
