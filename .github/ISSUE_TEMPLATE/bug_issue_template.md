@@ -13,6 +13,8 @@ assignees: ""
 - Marketing
 - RD
 - After Sales Service
+- Manufacturing
+- QA
 
 _keep only the necessary lines_
 
@@ -50,9 +52,11 @@ _Complete labelling regarding the [workflow result](https://github.com/eove/.git
 ### What is the problem to solve?
 
 ```
-Given
-When
-Then
+  Feature: ...
+    Scenario: ...
+      Given ...
+      When ...
+      Then ... ....... PASS [ ] / FAIL [ ]
 ```
 
 ## Proposal _optionnal_
