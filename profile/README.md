@@ -1,4 +1,4 @@
-<img align="right" width="400" height="300" src="./profile/img/eove-valeurs.png">
+<img align="right" width="400" height="300" src="./img/eove-valeurs.png">
 
 At [EOVE](https://eove.fr), we design and manufacture ventilatory devices for patients with respiratory disease.
 
