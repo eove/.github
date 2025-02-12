@@ -11,4 +11,4 @@ _TODO_ Describe prerequisites needed to merge this PR
 
 _TODO_ Describe how you solved the issue
 
-## Advices for testing (optional)
+## Advice for testing (optional)
