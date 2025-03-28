@@ -1,8 +1,8 @@
 ---
 name: Eove feature/enhancement issue
-about: Describe a feature or enhancement for eove products
+about: Describe a feature/enhancement for eove products
 title: ""
-labels: "enhancement"
+labels: "feature"
 assignees: ""
 ---
 
