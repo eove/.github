@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 ## Origin
-  
+
 - Technician
 - Physician
 - Marketing
@@ -59,6 +59,6 @@ _Complete labelling regarding the [workflow result](https://github.com/eove/.git
       Then ... ....... PASS [ ] / FAIL [ ]
 ```
 
-## Proposal _optionnal_
+## Proposal (optional)
 
 _Complete with your idea, the feedback from the field, ask for help, etc..._

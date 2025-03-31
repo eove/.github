@@ -5,16 +5,17 @@
 Pick an existing template when possible:
 
 - "Eove bug issue" to report a bug/regression concerning end-user
-    - criticity will be evaluated in template
-    - production code only
+  - criticity will be evaluated in template
+  - production code only (not in test, build script, etc.)
 - "Eove feature/enhancement issue" to describe a feature/enhancement for eove products
-    - could be a brand new feature
-    - could be a change to an existing feature
-    - should concern end-user
-- "Eove technical issue" to describe a technical modification (build, tests, refactoring)
-    - could be a dependency update
-    - when you add more tests out of a feature
-    - when you modify the build
+  - could be a brand-new feature
+  - could be a change to an existing feature
+  - should concern end-user
+- "Eove technical issue" to describe a technical modification
+  - could be about a deprecated dependency to update
+  - when you detect a lack of test in a feature
+  - when we are missing a build script for instance
+  - could even be a bug, but in other than production code
 
 ## Labelling the issue
 
@@ -31,3 +32,11 @@ If label is missing, pick one among the following list:
 
 The exhaustive list is available
 at [Repository labels](https://github.com/organizations/eove/settings/repository-defaults).
+
+## Maintenance
+
+Run prettier from time to time:
+
+```sh
+npx prettier@3 --write '**/*.{json,md,yml}'
+```

@@ -7,7 +7,7 @@ _TODO_ Describe prerequisites needed to merge this PR
 - [ ] Changelog updated
 - [ ] Traceablity to issue's tests
 
-## How was it done
+## How it was done
 
 _TODO_ Describe how you solved the issue
 
