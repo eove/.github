@@ -1,13 +1,13 @@
 ---
 name: 🐛 Eove bug issue 🐛
-about: Report a reproducible bug or regression
+about: Report a bug/regression concerning end-user
 title: "[Bug]: "
 labels: ""
 assignees: ""
 ---
 
 ## Origin
-  
+
 - Technician
 - Physician
 - Marketing
@@ -31,18 +31,18 @@ _keep only the necessary lines_
 
 ```mermaid
 graph TD
-    D{"Is it dangerous for the patient?<br/>(the answer is YES to one of the 4 questions)"}
-    D --NO--> E[LABEL BUG]
-    D --YES--> G(Risk analysis)
-    --> H{Is the remaining<br/>risk acceptable?}
-    H --YES--> I[LABEL CRITICAL]
-    H --NO--> J[LABEL NC]
+    DANGER_QUESTION{"Is it dangerous for the patient?<br/>(One of the 4 questions is checked)"}
+    DANGER_QUESTION --NO--> MINOR_BUG[bug:minor]
+    DANGER_QUESTION --YES--> RISK(Risk analysis)
+    RISK --> RISK_QUESTION{Is the remaining<br/>risk acceptable?}
+    RISK_QUESTION --YES--> CRITICAL_BUG[bug:critical]
+    RISK_QUESTION --NO--> NON_CONFORM_BUG[bug:nc]
 
 classDef Tag stroke:#333,color:#000, stroke-width:4px, font-weight: bold
-class E,I,J Tag;
-style E fill:#FFFF00
-style I fill:#FFC300
-style J fill:#FF0000
+class MINOR_BUG,CRITICAL_BUG,NON_CONFORM_BUG,FEATURE Tag;
+style MINOR_BUG fill:#FFFF00
+style CRITICAL_BUG fill:#FFC300
+style NON_CONFORM_BUG fill:#FF0000
 ```
 
 _Complete labelling regarding the [workflow result](https://github.com/eove/.github/) (visualise it in preview) and erase this chapter once labelling done_
@@ -59,6 +59,6 @@ _Complete labelling regarding the [workflow result](https://github.com/eove/.git
       Then ... ....... PASS [ ] / FAIL [ ]
 ```
 
-## Proposal _optionnal_
+## Proposal (optional)
 
 _Complete with your idea, the feedback from the field, ask for help, etc..._

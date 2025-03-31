@@ -1,8 +1,8 @@
 ---
 name: Eove feature/enhancement issue
-about: Describe a feature or enhancement for eove products
+about: Describe a feature/enhancement for eove products
 title: ""
-labels: "enhancement"
+labels: "feature"
 assignees: ""
 ---
 
@@ -22,7 +22,7 @@ _keep only the necessary lines_
 
 ### What could be even better in our product?
 
-_Describe as best as you can the feature or enhancement_
+_Describe as best as you can the feature or enhancement without thinking about a solution._
 
 ### Test
 
@@ -36,6 +36,6 @@ _Can be filled when starting to work on the issue_
       Then ... ....... PASS [ ] / FAIL [ ]
 ```
 
-## Proposal
+## Proposal (optional)
 
 _Complete with your idea, the feedback from the field, ask for help, etc..._
