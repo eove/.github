@@ -1,0 +1,17 @@
+name: "PR Title Checker (legacy)"
+
+on:
+  workflow_call:
+    inputs:
+      regexp:
+        required: false
+        type: string
+        default: '^(Ref|Fix) #\d+ - .*'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Slashgear/action-check-pr-title@v5.0.1
+        with:
+          regexp: ${{ inputs.regexp }}
