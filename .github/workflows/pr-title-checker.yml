@@ -6,7 +6,7 @@ on:
       regexp:
         required: false
         type: string
-        default: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([\w ,:\-/\.#]+\))?!?: .{1,72}( ?\(#\d+\))?$'
+        default: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([\w ,:\-/\.#]+\))?!?: (?!.*\([^#][^)]*\)$).{1,72}( ?\(#\d+\))?$'
       flags:
         required: false
         type: string
