@@ -1,0 +1,17 @@
+name: "PR Title Checker"
+
+on:
+  workflow_call:
+    inputs:
+      regexp:
+        required: false
+        type: string
+        default: '^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-zA-Z0-9/_-]+\))?!?: .{1,72}( ?\(((close|closes|fix|fixes|resolve|resolves|refs) )?#\d+\))?$'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Slashgear/action-check-pr-title@v5.0.1
+        with:
+          regexp: ${{ inputs.regexp }}
